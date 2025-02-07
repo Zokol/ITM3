@@ -18,7 +18,7 @@ ITM3 is based in three measurement factors:
 	* Device sends private information unencrypted in the network
 * Level 1:
 	* Accessing private information requires access to 3rd party database (e.g. shares usage data to marketing companies)
-	* Device sends private information to 3rd party database (e.g. Facebook / Case Bluetens or Google Tag Manager / Case Nedis)
+	* Device sends private information to 3rd party database (e.g. Facebook or Google Tag Manager)
 * Level 2:
 	* Accessing private information requires access to manufacturer-managed systems (e.g. dedicated/self-hosted data processing services)
 	* Data sent only to self-hosted backend (e.g. dedicated / cloud-hosted platform operated by the manufacturer; Google Firebase, AWS, etc...)
