@@ -1,5 +1,6 @@
 # ITM3
-IoT Meter 3 promises give insight on quality of cybersecurity in network-connected consumer devices
+IoT Meter 3 promises give insight on quality of cybersecurity in network-connected consumer devices.
+
 Measured factors are based on evaluating the practical risks of the device in common household-environment.
 
 [Test process documentation](Test_process.md)
