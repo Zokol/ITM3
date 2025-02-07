@@ -2,6 +2,8 @@
 IoT Meter 3 promises give insight on quality of cybersecurity in network-connected consumer devices
 Measured factors are based on evaluating the practical risks of the device in common household-environment.
 
+Test process document: [[Test_process.md]]
+
 # Factors:
 ITM3 is based in three measurement factors:
 * Privacy (What level of access attacker needs to gain personal information of the user?)
