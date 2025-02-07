@@ -33,13 +33,16 @@ ITM3 is based in three measurement factors:
 	* HTTP
 * Level 1:
 	* Communicates using known-vulnerable encryption schemes
+	* Uses ciphersuites determined **weak** by ciphersuite.info, for example CBC-mode used with AES
 	* HTTPS with SSL or TLS1.0
-	* CBC-mode used with AES
 * Level 2:
 	* Communicates using good encryption schemes
+	* Uses ciphersuites determined **good** by ciphersuite.info
 	* TLS1.2 or TLS1.3
 * Level 3:
 	* Communicates using PQC encryption schemes
+	* Uses ciphersuites determined **recommended** by ciphersuite.info
+ 	* Data sent to manufacturer systems is encrypted with keys that reside on the device in a secure enclave
 	* AES256 and SHA-2 with TLS1.3
 ## Protection of device:
 **How easy it is to gain direct access to the device?**
@@ -54,6 +57,7 @@ ITM3 is based in three measurement factors:
 * Level 2:
 	* Vulnerable to customized attacks via local network
 	* Communicates only to local network devices (e.g. smartphone)
+ 	* Connects to Internet only temporarily
 	* Nessus scan reveals low-risk issues
 * Level 3:
 	* Vulnerable to physical attack via physical access to device
