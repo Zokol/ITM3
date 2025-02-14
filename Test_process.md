@@ -34,7 +34,7 @@
 1) Try to identify serial port, to capture boot log during first boot
 2) Download mobile app to phone and dump it
 	1) Android: `adb shell pm list packages` & `adb pull`
-  2) iOS: `` 
+  2) iOS: `./dump.py -p 2222 -H localhost com.package.name` 
 3) Start capturing network traffic; 
 	1) Monitor ports, mobile phone packet capture (e.g. PCAPdroid), BLE-sniffer, etc..
 	2) HTTPS proxy (Burp, OWASP Zap, PCAPdroid, etc..)
